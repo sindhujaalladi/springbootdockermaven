@@ -74,10 +74,10 @@ once spring application is ready and dockerfile is added
  
  we can directly run the image from docker container 
  
+ without adding docker file by spring cloud native lib we integrated with docker by using below 2 commands
  
  spring-boot:build-image
- [[1;34mINFO[m] Successfully built image 'docker.io/library/springbuiltindocker:0.0.1-SNAPSHOT'
- 
+ Successfully built image 'docker.io/library/springbuiltindocker:0.0.1-SNAPSHOT'
  docker run --tty --publish 9898:8787 springbuiltindocker:0.0.1-SNAPSHOT
 
  
